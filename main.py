@@ -111,7 +111,7 @@ for pages in list:
         
  
     
-with open('movie_file.txt', 'a', encoding='UTF-8') as file:
+with open('film_list.txt', 'a', encoding='UTF-8') as file:
     file.write(json.dumps((film)))
     print('End')
     exit()
